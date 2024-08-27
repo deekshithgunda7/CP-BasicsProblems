@@ -5,6 +5,7 @@ class Pair{
         this.first=first;
         this.last=last;
     }
+    
 }
 public void bfs(char[][] grid,int ro,int col,int[][] vis ){
        vis[ro][col]=1;
